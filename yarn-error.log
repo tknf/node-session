@@ -1,0 +1,31 @@
+Arguments: 
+  /Users/mast1ff/.nodebrew/node/v16.13.0/bin/node /Users/mast1ff/.nodebrew/current/bin/yarn
+
+PATH: 
+  /Users/mast1ff/Developer/flutter/bin:/Users/mast1ff/.rbenv/shims:/Users/mast1ff/.rbenv/bin:/Users/mast1ff/.pyenv/bin:/usr/local/opt/php@8.0/bin:/usr/local/opt/php@8.0/sbin:/usr/local/opt/mysql@5.7/bin:/Users/mast1ff/.nodebrew/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/mast1ff/Developer/flutter/bin:/Users/mast1ff/.rbenv/shims:/Users/mast1ff/.rbenv/bin:/Users/mast1ff/.pyenv/bin:/usr/local/opt/php@8.0/bin:/usr/local/opt/php@8.0/sbin:/usr/local/opt/mysql@5.7/bin:/Users/mast1ff/.nodebrew/current/bin:/Users/mast1ff/.cargo/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/mast1ff/Repos/tknf/@oss/node-session/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /Users/mast1ff/.nodebrew/node/v16.13.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/mast1ff/.nodebrew/node/v16.13.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/mast1ff/.nodebrew/node/v16.13.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

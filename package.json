@@ -1,0 +1,46 @@
+{
+  "name": "@tknf/node-session",
+  "version": "0.1.0",
+  "description": "Session module from Remix",
+  "author": "Tasuku Kuribayashi <kuribayashi@tknf.net>",
+  "repository": {
+    "url": "https://github.com/tknf/node-session"
+  },
+  "license": "MIT",
+  "private": false,
+  "homepage": "https://github.com/tknf/node-session",
+  "keywords": [
+    "cookie",
+    "session"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "dev": "yarn build --preserveWatchOutput -w",
+    "build": "tsc -p .",
+    "prepublish": "yarn build",
+    "publish": "npm publish"
+  },
+  "dependencies": {
+    "@tknf/node-globals": "^0.1.4",
+    "cookie": "^0.5.0",
+    "cookie-signature": "^1.2.0"
+  },
+  "devDependencies": {
+    "@tknf/eslint-config-typescript": "^1.0.6",
+    "@tknf/prettier-config": "^1.0.6",
+    "@types/cookie": "^0.5.1",
+    "@types/cookie-signature": "^1.0.4",
+    "eslint": "^8.16.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.7.2"
+  },
+  "prettier": "@tknf/prettier-config"
+}
