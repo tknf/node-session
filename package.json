@@ -1,7 +1,7 @@
 {
   "name": "@tknf/node-session",
   "version": "0.1.0",
-  "description": "Session module from Remix",
+  "description": "Session library for NodeJS, extracted from Remix",
   "author": "Tasuku Kuribayashi <kuribayashi@tknf.net>",
   "repository": {
     "url": "https://github.com/tknf/node-session"
@@ -25,8 +25,8 @@
     "clean": "rimraf dist",
     "dev": "yarn build --preserveWatchOutput -w",
     "build": "tsc -p .",
-    "prepublish": "yarn build",
-    "publish": "npm publish"
+    "prepublishOnly": "yarn build",
+    "pkg:publish": "npm publish"
   },
   "dependencies": {
     "@tknf/node-globals": "^0.1.4",
